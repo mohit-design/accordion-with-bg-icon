@@ -1,0 +1,59 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Kanit-Medium"; src: url("../fonts/Kanit-Medium.otf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 1px; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Accordion With Icon and Background Section Starts -------*/
+
+.accordion > h4 { border: 1px solid #e0e1e2; border-bottom: 0; cursor: pointer; font: 1.8rem/1.42857143 "Kanit-Medium"; position: relative; }
+.accordion > h4:last-of-type { border-bottom: 1px solid #e0e1e2; }
+.accordion > h4:before {
+	border-right: 1px solid #fff;
+	content: "\f461";
+	display: block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding: 10px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.accordion > h4:after {
+	content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.accordion > h4.active:after {
+	content: "\f068";
+}
+.accordion > h4.active { border: 1px solid #fff; background-color: #3483c6; color: #fff; }
+.accordion > h4 > span { display: block; padding: 10px 10px 10px 50px; }
+.accordion > p { background: #fff; padding: 10px; }
+
+/*------- Accordion With Icon and Background Section Ends -------*/
