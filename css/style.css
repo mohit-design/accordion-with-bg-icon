@@ -26,6 +26,8 @@ a:focus { outline: 0; text-decoration: none; transition: 0.5s linear; -webkit-tr
 
 /*------- Accordion With Icon and Background Section Starts -------*/
 
+.bg-accordion-with-bg-icon { padding: 50px 15px; }
+.section-heading > h1 { color: #000; font: 3.6rem/1.42857143 "Kanit-Medium"; margin-bottom: 50px; text-align: center; }
 .accordion > h4 { border: 1px solid #e0e1e2; border-bottom: 0; cursor: pointer; font: 1.8rem/1.42857143 "Kanit-Medium"; position: relative; }
 .accordion > h4:last-of-type { border-bottom: 1px solid #e0e1e2; }
 .accordion > h4:before {
