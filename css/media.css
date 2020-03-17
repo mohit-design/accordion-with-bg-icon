@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+
+	/*------- Accordion With Icon and Background Section Starts -------*/
+
+.bg-accordion-with-bg-icon { padding: 15px; }
+.section-heading > h1 { font-size: 2.4rem; margin-bottom: 15px; }
+.accordion > p { font-size: 1.4rem; text-align: justify; }
+
+	/*------- Accordion With Icon and Background Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*------- Accordion With Icon and Background Section Starts -------*/
+
+.bg-accordion-with-bg-icon { padding: 30px 15px; }
+.section-heading > h1 { font-size: 3rem; margin-bottom: 30px; }
+
+	/*------- Accordion With Icon and Background Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	/*------- Accordion With Icon and Background Section Starts -------*/
+
+.bg-accordion-with-bg-icon { padding: 30px 15px; }
+.section-heading > h1 { font-size: 3rem; margin-bottom: 30px; }
+
+	/*------- Accordion With Icon and Background Section Ends -------*/
+
+}

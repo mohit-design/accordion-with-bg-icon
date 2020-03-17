@@ -1,6 +1,8 @@
 /*------- Font Family Starts -------*/
 
-@font-face { font-family: "Kanit-Medium"; src: url("../fonts/Kanit-Medium.otf"); }
+@font-face { font-family: "Lobster-Regular"; src: url("../fonts/Lobster-Regular.ttf"); }
+@font-face { font-family: "Barlow-Regular"; src: url("../fonts/Barlow-Regular.otf"); }
+@font-face { font-family: "Barlow-Medium"; src: url("../fonts/Barlow-Medium.otf"); }
 
 /*------- Font Family Ends -------*/
 
@@ -27,8 +29,8 @@ a:focus { outline: 0; text-decoration: none; transition: 0.5s linear; -webkit-tr
 /*------- Accordion With Icon and Background Section Starts -------*/
 
 .bg-accordion-with-bg-icon { padding: 50px 15px; }
-.section-heading > h1 { color: #000; font: 3.6rem/1.42857143 "Kanit-Medium"; margin-bottom: 50px; text-align: center; }
-.accordion > h4 { border: 1px solid #e0e1e2; border-bottom: 0; cursor: pointer; font: 1.8rem/1.42857143 "Kanit-Medium"; position: relative; }
+.section-heading > h1 { color: #000; font: 3.6rem/1.42857143 "Lobster-Regular"; margin-bottom: 50px; text-align: center; }
+.accordion > h4 { border: 1px solid #e0e1e2; border-bottom: 0; cursor: pointer; font: 1.8rem/1.42857143 "Barlow-Medium"; position: relative; }
 .accordion > h4:last-of-type { border-bottom: 1px solid #e0e1e2; }
 .accordion > h4:before {
 	border-right: 1px solid #fff;
@@ -56,6 +58,6 @@ a:focus { outline: 0; text-decoration: none; transition: 0.5s linear; -webkit-tr
 }
 .accordion > h4.active { border: 1px solid #fff; background-color: #3483c6; color: #fff; }
 .accordion > h4 > span { display: block; padding: 10px 10px 10px 50px; }
-.accordion > p { background: #fff; padding: 10px; }
+.accordion > p { background: #fff; color: #000; font: 1.6rem/1.42857143 "Barlow-Regular"; padding: 10px; }
 
 /*------- Accordion With Icon and Background Section Ends -------*/
